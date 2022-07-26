@@ -10,5 +10,7 @@
     </head>
     <body>
         <h1>WebSite on the Laravel Framework</h1>
+
+        <script src="/js/app.js"></script>
     </body>
 </html>
