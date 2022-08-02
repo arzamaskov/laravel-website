@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Laravel WebSite')
+@section('title', 'All articles')
 
 @section('content')
 
@@ -15,5 +15,7 @@
         @endforeach
 
     </div>
+
+    {{ $posts->links() }}
 
 @endsection
